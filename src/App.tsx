@@ -1,7 +1,20 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Wine, Music } from 'lucide-react';
 
 function App() {
+  const [showNavbar, setShowNavbar] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      // Show navbar after scrolling past hero section (approximately 70vh)
+      const heroHeight = window.innerHeight * 0.7;
+      setShowNavbar(window.scrollY > heroHeight);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
     <div className="min-h-screen relative">
       {/* Background Image */}
@@ -250,6 +263,56 @@ function App() {
           alt="Footer"
           className="w-full h-auto object-cover"
         />
+      </div>
+      
+      {/* Sticky Bottom Navigation Bar */}
+      <div className={`fixed bottom-0 left-0 right-0 z-50 transition-transform duration-300 ${
+        showNavbar ? 'translate-y-0' : 'translate-y-full'
+      }`}>
+        <div className="bg-[#f3efe6] border-t border-gray-300 px-6 py-4">
+          <div className="max-w-7xl mx-auto flex items-center justify-between">
+            {/* Left Side - Logo */}
+            <div className="flex items-center">
+              <span className="text-[#1a2b49] text-xl font-bold italic" style={{ fontFamily: 'Georgia, serif' }}>
+                Poolsuite
+              </span>
+            </div>
+            
+            {/* Center - Navigation Links */}
+            <div className="hidden md:flex items-center space-x-8">
+              <button className="text-[#1a2b49] text-sm font-medium hover:opacity-70 transition-opacity" style={{ fontFamily: 'Georgia, serif' }}>
+                HOME
+              </button>
+              <button className="text-[#1a2b49] text-sm font-medium hover:opacity-70 transition-opacity" style={{ fontFamily: 'Georgia, serif' }}>
+                DEMO
+              </button>
+              <button className="text-[#1a2b49] text-sm font-medium hover:opacity-70 transition-opacity" style={{ fontFamily: 'Georgia, serif' }}>
+                FAQ
+              </button>
+            </div>
+            
+            {/* Center Image */}
+            <div className="absolute left-1/2 transform -translate-x-1/2">
+              <img 
+                src="https://res.cloudinary.com/doevp9obh/image/upload/v1752744819/ChatGPT_Image_Jul_17_2025_03_03_25_PM_n4mgbb.png"
+                alt="Center Logo"
+                className="h-12 w-auto object-contain"
+              />
+            </div>
+            
+            {/* Right Side - Buttons */}
+            <div className="flex items-center space-x-4">
+              <button className="text-[#1a2b49] text-sm font-medium hover:opacity-70 transition-opacity" style={{ fontFamily: 'Georgia, serif' }}>
+                BUY ON OPENSEA
+              </button>
+              <button className="bg-[#1a2b49] text-[#f3efe6] px-4 py-2 rounded-full text-sm font-medium hover:shadow-lg transition-all duration-300 flex items-center gap-2" style={{ fontFamily: 'Georgia, serif' }}>
+                <span>◊</span>
+                Style Your Leisurist
+                <span>◊</span>
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
