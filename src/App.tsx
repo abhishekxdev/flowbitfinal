@@ -231,6 +231,17 @@ function App() {
           </div>
         </div>
       </div>
+      
+      {/* Centered Image Section */}
+      <div className="relative z-10 w-full py-16 px-6 lg:px-12">
+        <div className="flex justify-center">
+          <img 
+            src="https://res.cloudinary.com/doevp9obh/image/upload/v1752741437/Screenshot_2025-07-17_at_2.05.36_PM-removebg-preview_bd0iwm.png"
+            alt="Centered Image"
+            className="h-auto max-w-full object-contain"
+          />
+        </div>
+      </div>
     </div>
   );
 }
