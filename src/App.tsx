@@ -236,7 +236,7 @@ function App() {
       <div className="relative z-10 w-full py-16 px-6 lg:px-12">
         <div className="flex justify-center">
           <img 
-            src="https://res.cloudinary.com/doevp9obh/image/upload/v1752741437/Screenshot_2025-07-17_at_2.05.36_PM-removebg-preview_bd0iwm.png"
+            src="https://res.cloudinary.com/doevp9obh/image/upload/v1752742376/footer-logo_gufj6t.png"
             alt="Centered Image"
             className="h-auto max-w-full object-contain"
           />
