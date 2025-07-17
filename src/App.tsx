@@ -128,7 +128,7 @@ function App() {
       </div>
       
       {/* A Collection of Ever-Evolving Leisurists Section */}
-      <div className="relative z-10 w-full bg-[#f3efe6] bg-opacity-95 py-20 px-6 lg:px-12">
+      <div className="relative z-10 w-full py-20 px-6 lg:px-12">
         <div className="max-w-7xl mx-auto">
           {/* Section Heading */}
           <div className="text-center mb-16">
@@ -172,11 +172,13 @@ function App() {
               </div>
               
               {/* Button */}
-              <button className="w-full border-2 border-[#1a2b49] text-[#1a2b49] px-7 py-4 rounded-lg font-medium hover:shadow-lg transition-all duration-300 flex items-center justify-center gap-2" style={{ fontFamily: 'Georgia, serif' }}>
-                <span>◊</span>
-                Buy on Opensea
-                <span>◊</span>
-              </button>
+              <div className="h-16 flex items-end">
+                <button className="w-full border-2 border-[#1a2b49] text-[#1a2b49] px-7 py-4 rounded-lg font-medium hover:shadow-lg transition-all duration-300 flex items-center justify-center gap-2" style={{ fontFamily: 'Georgia, serif' }}>
+                  <span>◊</span>
+                  Buy on Opensea
+                  <span>◊</span>
+                </button>
+              </div>
             </div>
             
             {/* Right Column - Expansion Pack Technology */}
@@ -218,11 +220,13 @@ function App() {
               </div>
               
               {/* Button */}
-              <button className="w-full bg-[#1a2b49] text-[#f3efe6] px-7 py-4 rounded-full font-medium hover:shadow-lg transition-all duration-300 flex items-center justify-center gap-2" style={{ fontFamily: 'Georgia, serif' }}>
+              <div className="h-16 flex items-end">
+                <button className="w-full bg-[#1a2b49] text-[#f3efe6] px-7 py-4 rounded-full font-medium hover:shadow-lg transition-all duration-300 flex items-center justify-center gap-2" style={{ fontFamily: 'Georgia, serif' }}>
                 <span>◊</span>
                 Style Your Leisurist
                 <span>◊</span>
               </button>
+              </div>
             </div>
           </div>
         </div>
