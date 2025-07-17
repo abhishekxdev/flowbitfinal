@@ -55,15 +55,15 @@ function App() {
           <img 
             src="https://res.cloudinary.com/doevp9obh/image/upload/v1752642806/io_omvije.png"
             alt="Hero Image"
-            className="h-auto max-w-full object-contain"
+            className="h-auto max-w-full object-contain w-1/2"
           />
         </div>
       </div>
       
       {/* Bottom Accent Line */}
-      <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-blue-500 to-transparent" />
-    </div>
+          <div className="text-center max-w-2xl">
+            <p className="text-gray-700 text-xs md:text-sm font-medium tracking-wide mb-2">
   );
-}
-
+            className="h-auto max-w-full object-contain w-1/2"
+            <h1 className="text-gray-800 text-xl md:text-2xl lg:text-3xl font-light tracking-wider">
 export default App;
