@@ -96,7 +96,7 @@ function App() {
             <div className="max-w-[900px] mx-auto grid md:grid-cols-2 gap-8">
               <div className="text-[#1a2b49] text-lg leading-relaxed" style={{ fontFamily: 'Georgia, serif', lineHeight: '1.6em' }}>
                 <p>
-                  For years the Poolsuite Internet Leisure Corporation has enriched the lives of leisure connoisseurs across the World Wide Web by way of meticulously crafted "Virtual Leisure Ecosystems™". We're thrilled to launch this grand experiment which allows anyone, anywhere to become one of the countless iconic characters which inhabit these worlds.
+                  For years the Poolsuite Internet Leisure Corporation has enriched the lives of leisure connoisseurs across the World Wide Web by way of meticulously crafted "Virtual Leisure Ecosystems™". We're thrilled to launch this grand experiment which allows anyone, anywhere to become one of the countless iconic characters which inhabit these worlds.<br/>
 
                   Grand Leisure — An evolving NFT avatar and the exploration of what's possible when thousands of the internet's finest leisure-
                 </p>
