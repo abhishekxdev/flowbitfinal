@@ -242,6 +242,15 @@ function App() {
           />
         </div>
       </div>
+      
+      {/* Footer Section */}
+      <div className="relative z-10 w-full">
+        <img 
+          src="https://res.cloudinary.com/doevp9obh/image/upload/v1752642805/footer_h8pa3r.png"
+          alt="Footer"
+          className="w-full h-auto object-cover"
+        />
+      </div>
     </div>
   );
 }
