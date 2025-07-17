@@ -269,17 +269,15 @@ function App() {
       <div className={`fixed bottom-0 left-0 right-0 z-50 transition-transform duration-300 ${
         showNavbar ? 'translate-y-0' : 'translate-y-full'
       }`}>
-        <div className="bg-[#f3efe6] border-t border-gray-300 px-6 py-4">
+        <div className="bg-[#f3efe6] border-t border-gray-300 px-6 py-4 rounded-t-3xl relative">
           <div className="max-w-7xl mx-auto flex items-center justify-between">
-            {/* Left Side - Logo */}
-            <div className="flex items-center">
-              <span className="text-[#1a2b49] text-xl font-bold italic" style={{ fontFamily: 'Georgia, serif' }}>
-                Poolsuite
-              </span>
-            </div>
-            
-            {/* Center - Navigation Links */}
-            <div className="hidden md:flex items-center space-x-8">
+            {/* Left Side - Logo and Navigation Links */}
+            <div className="flex items-center space-x-8">
+              <img 
+                src="https://res.cloudinary.com/doevp9obh/image/upload/v1752745006/poolsuite.386f45de_ho41pg.svg"
+                alt="Poolsuite Logo"
+                className="h-8 w-auto object-contain"
+              />
               <button className="text-[#1a2b49] text-sm font-medium hover:opacity-70 transition-opacity" style={{ fontFamily: 'Georgia, serif' }}>
                 HOME
               </button>
@@ -291,12 +289,12 @@ function App() {
               </button>
             </div>
             
-            {/* Center Image */}
-            <div className="absolute left-1/2 transform -translate-x-1/2">
+            {/* Center Image - Bigger and Overlapping */}
+            <div className="absolute left-1/2 transform -translate-x-1/2 -translate-y-6">
               <img 
                 src="https://res.cloudinary.com/doevp9obh/image/upload/v1752744819/ChatGPT_Image_Jul_17_2025_03_03_25_PM_n4mgbb.png"
                 alt="Center Logo"
-                className="h-12 w-auto object-contain"
+                className="h-20 w-auto object-contain"
               />
             </div>
             
