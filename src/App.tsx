@@ -290,11 +290,11 @@ function App() {
             </div>
             
             {/* Center Image - Bigger and Overlapping */}
-            <div className="absolute left-1/2 transform -translate-x-1/2 -translate-y-6">
+            <div className="absolute left-1/2 transform -translate-x-1/2 -translate-y-8">
               <img 
                 src="https://res.cloudinary.com/doevp9obh/image/upload/v1752744819/ChatGPT_Image_Jul_17_2025_03_03_25_PM_n4mgbb.png"
                 alt="Center Logo"
-                className="h-20 w-auto object-contain"
+                className="h-28 w-auto object-contain"
               />
             </div>
             
