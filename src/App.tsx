@@ -14,43 +14,13 @@ function App() {
       
       {/* Header Section */}
       <div className="relative z-10 w-full">
-        {/* Top Navigation Bar */}
-        <div className="flex items-center justify-between px-6 lg:px-12 py-6">
-          {/* Top Left - Logo */}
-          <div className="flex flex-col items-start space-y-2">
-            <h1 className="text-lg lg:text-xl font-bold text-slate-100 tracking-wider font-serif">
-              POOLSUITE LEISURE CORP.
-            </h1>
-            <div className="border border-slate-300 rounded-full px-3 py-1">
-              <span className="text-xs text-slate-200 tracking-widest font-light">
-                OFFICIAL PERK
-              </span>
-            </div>
-          </div>
-          
-          {/* Top Right - Company Name with Icon */}
-          <div className="flex items-center space-x-3">
-            <div className="text-right">
-              <p className="text-sm lg:text-base text-slate-200 tracking-wider font-light">
-                POOLSUITE INTERNET LEISURE CORPORATION
-              </p>
-            </div>
-            <div className="flex items-center space-x-1 text-slate-300">
-              <Wine className="w-5 h-5" />
-              <Music className="w-4 h-4" />
-            </div>
-          </div>
-        </div>
-        
-        {/* Main Announcement Line */}
-        <div className="text-center px-6 lg:px-12 py-8">
-          <div className="max-w-6xl mx-auto">
-            <p className="text-sm lg:text-base text-slate-100 tracking-[0.2em] font-light uppercase leading-relaxed">
-              GRAND LEISURE IS OFFERING NO. 009 
-              <span className="inline-block mx-3 text-slate-400">▾</span>
-              FROM THE POOLSUITE INTERNET LEISURE CORPORATION. OUR NFT HOLDERS RECEIVE EARLY ACCESS.
-            </p>
-          </div>
+        {/* Header Image */}
+        <div className="flex justify-center px-6 lg:px-12 py-6">
+          <img 
+            src="https://res.cloudinary.com/doevp9obh/image/upload/v1752643836/Screenshot_2025-07-16_at_10.50.51_AM-removebg-preview_lpy8kn.png"
+            alt="Header"
+            className="h-auto max-w-full object-contain"
+          />
         </div>
       </div>
       
