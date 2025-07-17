@@ -26,7 +26,7 @@ function App() {
           </div>
           
           {/* Top Right Image */}
-          <div className="absolute top-6 right-6 lg:right-12">
+          <div className="absolute top-6 right-0">
             <img 
               src="https://res.cloudinary.com/doevp9obh/image/upload/v1752741437/Screenshot_2025-07-17_at_2.05.51_PM-removebg-preview_ofmsw6.png"
               alt="Top Right"
@@ -49,7 +49,7 @@ function App() {
       </div>
       
       {/* Hero Section */}
-      <div className="relative z-10 flex items-center justify-center min-h-[70vh] px-6 lg:px-12">
+      <div className="relative z-10 flex items-center justify-center min-h-[70vh] px-6 lg:px-12 mt-16">
         <div className="flex justify-center">
           <img 
             src="https://res.cloudinary.com/doevp9obh/image/upload/v1752642806/io_omvije.png"
