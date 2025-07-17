@@ -61,7 +61,7 @@ function App() {
       
         {/* Ralph Lauren Collection Section */}
         <div className="w-full bg-[#f3efe6] bg-opacity-95 py-16 px-6 lg:px-12">
-          <div className="max-w-6xl mx-auto">
+          <div className="max-w-7xl mx-auto">
             {/* Top Title Block */}
             <div className="text-center mb-12">
               <h2 className="text-[#1a2b49] text-lg md:text-xl font-bold uppercase tracking-wider mb-6" style={{ fontFamily: 'Georgia, serif' }}>
@@ -238,7 +238,7 @@ function App() {
           <img 
             src="https://res.cloudinary.com/doevp9obh/image/upload/v1752742376/footer-logo_gufj6t.png"
             alt="Centered Image"
-            className="h-auto max-w-full object-contain"
+            className="h-auto max-w-md object-contain"
           />
         </div>
       </div>
