@@ -143,11 +143,11 @@ function App() {
             {/* Left Column - Design Your Own */}
             <div className="text-center">
               {/* Card Image */}
-              <div className="mb-8">
+              <div className="mb-8 h-80">
                 <img 
                   src="https://res.cloudinary.com/doevp9obh/image/upload/v1752742382/design-your-own.2cc62222_yvnopj.png"
                   alt="Design Your Own Bespoke Leisurist"
-                  className="w-full h-auto object-contain rounded-2xl shadow-lg"
+                  className="w-full h-full object-cover rounded-2xl shadow-lg"
                 />
               </div>
               
@@ -182,7 +182,7 @@ function App() {
             {/* Right Column - Expansion Pack Technology */}
             <div className="text-center">
               {/* Card Image with Background and GIF */}
-              <div className="mb-8 relative">
+              <div className="mb-8 relative h-80">
                 <div 
                   className="w-full h-80 bg-cover bg-center rounded-2xl shadow-lg flex items-center justify-center"
                   style={{
