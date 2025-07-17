@@ -113,6 +113,19 @@ function App() {
           </div>
         </div>
       </div>
+      
+      {/* Large Image Section - Right Aligned */}
+      <div className="w-full py-16 px-6 lg:px-12">
+        <div className="flex justify-end">
+          <div className="w-full max-w-2xl">
+            <img 
+              src="https://res.cloudinary.com/doevp9obh/image/upload/v1752742387/report-for-leisure-animated.0a166b26_js47l6.png"
+              alt="Report for Leisure"
+              className="w-full h-auto object-contain ml-auto"
+            />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
