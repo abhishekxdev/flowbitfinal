@@ -6,8 +6,8 @@ function App() {
 
   useEffect(() => {
     const handleScroll = () => {
-      // Show navbar after scrolling past hero section (approximately 70vh)
-      const heroHeight = window.innerHeight * 0.7;
+      // Show navbar after scrolling past hero section (approximately 80vh to ensure it's completely past hero)
+      const heroHeight = window.innerHeight * 0.8;
       setShowNavbar(window.scrollY > heroHeight);
     };
 
