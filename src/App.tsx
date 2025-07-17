@@ -35,12 +35,16 @@ function App() {
           </div>
           
           {/* Center Image */}
-          <div className="flex justify-center">
-            <img 
-              src="https://res.cloudinary.com/doevp9obh/image/upload/v1752741438/Screenshot_2025-07-17_at_2.05.59_PM-removebg-preview_jrcvnz.png"
-              alt="Center"
-              className="h-auto max-w-full object-contain"
-            />
+          {/* Center Text */}
+          <div className="flex justify-center mt-8">
+            <div className="text-center max-w-4xl">
+              <p className="text-gray-700 text-sm md:text-base font-medium tracking-wide mb-4">
+                GRAND LEISURE IS <span className="underline">OFFERING NO. 009</span> ▼ FROM THE POOLSUITE INTERNET LEISURE CORPORATION. OUR <span className="underline">NET HOLDERS</span> RECEIVE EARLY ACCESS.
+              </p>
+              <h1 className="text-gray-800 text-2xl md:text-4xl lg:text-5xl font-light tracking-wider">
+                POOLSUITE LEISURE CORP. PRESENTS
+              </h1>
+            </div>
           </div>
         </div>
       </div>
