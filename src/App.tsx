@@ -67,3 +67,6 @@ function App() {
             className="h-auto max-w-full object-contain w-1/2"
             <h1 className="text-gray-800 text-xl md:text-2xl lg:text-3xl font-light tracking-wider">
 export default App;
+
+  )
+}
