@@ -139,9 +139,9 @@ function App() {
           </div>
           
           {/* Two Column Layout */}
-          <div className="grid md:grid-cols-2 gap-12 lg:gap-16">
+          <div className="grid md:grid-cols-2 gap-12 lg:gap-16 items-end">
             {/* Left Column - Design Your Own */}
-            <div className="text-center">
+            <div className="text-center flex flex-col h-full">
               {/* Card Image */}
               <div className="mb-8 h-80">
                 <img 
@@ -165,14 +165,14 @@ function App() {
               </div>
               
               {/* Description */}
-              <div className="max-w-sm mx-auto mb-8">
+              <div className="max-w-sm mx-auto mb-8 flex-grow">
                 <p className="text-[#1a2b49] text-base leading-relaxed text-justify" style={{ fontFamily: 'Georgia, serif', lineHeight: '1.6em' }}>
                   Whatever your style of leisure, we've gone to great lengths to provide you with the assets you'll need to build the perfect Leisurist for such pursuits. With billions of possible combinations, you can enjoy browsing from our hundreds of items as you discover the ideal attire, eyewear, haircut, and accoutrement for your bespoke leisurist.
                 </p>
               </div>
               
               {/* Button */}
-              <div className="h-16 flex items-end">
+              <div className="mt-auto">
                 <button className="w-full border-2 border-[#1a2b49] text-[#1a2b49] px-7 py-4 rounded-lg font-medium hover:shadow-lg transition-all duration-300 flex items-center justify-center gap-2" style={{ fontFamily: 'Georgia, serif' }}>
                   <span>◊</span>
                   Buy on Opensea
@@ -182,7 +182,7 @@ function App() {
             </div>
             
             {/* Right Column - Expansion Pack Technology */}
-            <div className="text-center">
+            <div className="text-center flex flex-col h-full">
               {/* Card Image with Background and GIF */}
               <div className="mb-8 relative h-80">
                 <div 
@@ -213,14 +213,14 @@ function App() {
               </div>
               
               {/* Description */}
-              <div className="max-w-sm mx-auto mb-8">
+              <div className="max-w-sm mx-auto mb-8 flex-grow">
                 <p className="text-[#1a2b49] text-base leading-relaxed text-justify" style={{ fontFamily: 'Georgia, serif', lineHeight: '1.6em' }}>
                   Expansion Packs allow you to customize and update your Leisurist over time. In collaboration with an exciting roster of leisure-aligned brands and artists, your ever-evolving Leisurist will be eligible to access a stream of vibrant character customizations and bespoke fashion upgrades, enabled by Poolsuite's Expansion Pack Technology™. The inaugural collection has been crafted in collaboration with Ralph Lauren and can be accessed in the RL-3000.
                 </p>
               </div>
               
               {/* Button */}
-              <div className="h-16 flex items-end">
+              <div className="mt-auto">
                 <button className="w-full bg-[#1a2b49] text-[#f3efe6] px-7 py-4 rounded-full font-medium hover:shadow-lg transition-all duration-300 flex items-center justify-center gap-2" style={{ fontFamily: 'Georgia, serif' }}>
                 <span>◊</span>
                 Style Your Leisurist
